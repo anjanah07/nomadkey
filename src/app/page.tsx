@@ -14,7 +14,6 @@ import { coinbaseWallet, metaMask, walletConnect } from "wagmi/connectors";
 import Web3AuthConnectorInstance from "@/auth/web3AuthContextConfig";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Profile from "@/components/Profile";
-console.log("Hello from page");
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
