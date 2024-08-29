@@ -5,7 +5,6 @@ const Profile = () => {
   const { address, connector, isConnected } = useAccount();
   const { connect, connectors, error } = useConnect();
   const { disconnect } = useDisconnect();
-  console.log("Whatt", process.env.NEXT_PUBLIC_WEB3_CLIENT_ID);
   if (isConnected) {
     return (
       <div className="main">
