@@ -12,7 +12,6 @@ import {
 } from "wagmi";
 import { coinbaseWallet, metaMask, walletConnect } from "wagmi/connectors";
 import Web3AuthConnectorInstance from "@/auth/web3AuthContextConfig";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Profile from "@/components/Profile";
 export default function Home() {
   return (

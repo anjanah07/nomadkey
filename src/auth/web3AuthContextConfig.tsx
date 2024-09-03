@@ -28,7 +28,6 @@ export default function Web3AuthConnectorInstance(chains: Chain[]) {
   });
 
   const web3AuthInstance = new Web3Auth({
-    //TODO : get web3auth clientId from web3auth.io
     clientId: process.env.NEXT_PUBLIC_WEB3_CLIENT_ID || "",
     chainConfig,
     privateKeyProvider,
