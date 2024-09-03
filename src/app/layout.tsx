@@ -2,10 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { WagmiProvider, createConfig, http } from "wagmi";
-import { mainnet, sepolia } from "viem/chains";
-import { coinbaseWallet, metaMask } from "wagmi/connectors";
-import Web3AuthConnectorInstance from "@/auth/web3AuthContextConfig";
 import Providers from "./Providers";
 
 const inter = Inter({ subsets: ["latin"] });

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { useAccount, useConnect, useDisconnect } from "wagmi";
 
@@ -13,10 +14,6 @@ const Profile = () => {
         <button className="card" onClick={disconnect as any}>
           Disconnect
         </button>
-        {/* <SendTransaction />
-          <Balance />
-          <WriteContract />
-          <SwitchChain /> */}
       </div>
     );
   } else {
